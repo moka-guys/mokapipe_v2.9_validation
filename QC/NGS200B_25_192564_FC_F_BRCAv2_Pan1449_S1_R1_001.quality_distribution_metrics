@@ -1,0 +1,38 @@
+## htsjdk.samtools.metrics.StringHeader
+# picard.analysis.CollectMultipleMetrics INPUT=/home/dnanexus/in/sorted_bam/NGS200B_25_192564_FC_F_BRCAv2_Pan1449_S1_R1_001.bam OUTPUT=out/stats/QC/NGS200B_25_192564_FC_F_BRCAv2_Pan1449_S1_R1_001 PROGRAM=[CollectAlignmentSummaryMetrics, CollectBaseDistributionByCycle, CollectInsertSizeMetrics, MeanQualityByCycle, QualityScoreDistribution, CollectAlignmentSummaryMetrics, CollectInsertSizeMetrics, QualityScoreDistribution, MeanQualityByCycle, CollectBaseDistributionByCycle] REFERENCE_SEQUENCE=genome.fa    ASSUME_SORTED=true STOP_AFTER=0 METRIC_ACCUMULATION_LEVEL=[ALL_READS] VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Tue Jan 09 21:16:30 UTC 2018
+
+
+## HISTOGRAM	java.lang.Byte
+QUALITY	COUNT_OF_Q
+9	146165
+10	894263
+11	6710375
+12	172514
+14	10030
+15	9233
+16	16983
+17	22436
+18	123219
+19	338375
+20	398011
+21	1036062
+22	670294
+23	1435041
+24	2570345
+25	909240
+26	469032
+27	3653292
+28	623555
+29	245818
+30	1036078
+31	3184503
+32	2852512
+33	1134740
+34	14905466
+35	3734180
+36	8608270
+37	27397920
+38	116972161
+
